@@ -10,3 +10,157 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle, #6bd1b3, #4dcdc6, #3ac7d7, #40c0e4, #5bb7ea, #60baef, #64bcf3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border: 10px solid #000507;
+    width: fit-content;
+    padding: 15px;
+    width: 800px;
+    min-height: 400px;
+}
+
+.todo-input-container{
+    width: 5wv;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #296073;
+    border: 5px solid black;
+}
+.todo-input{
+    padding: 3px 12px;
+    border-radius: 50px;
+    border: 4px solid black;   
+    margin-bottom: 10px; 
+    background-color: #2961734f;
+    
+}
+
+.todo-ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.todo-checkbox{
+    margin-right: 5px;
+}
+
+.todo-item{
+    display: flex;
+    width: 100%;
+    margin-block: 2px;
+    /* top and bottom */
+}
+
+.todo-delete-item{
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+  }
+
+
+.todo-label{
+    margin-bottom: 0;
+}
+ 
+.todo-footer{
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.todo-items-left{
+    margin-bottom: 0;
+
+}
+
+.todo-undo-button, .todo-clearall-button{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 6px solid black;
+    padding: 8px 16px;
+    background-color: #296173a9;
+    
+}
+
+.todo-items-left{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 6px solid black;
+    padding: 8px 16px;
+    background-color: #e3e9ebe1;
+}
+li.bubble {
+	position: relative;
+	width: 300px;
+	text-align: center;
+	line-height: 1.4em;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 8px solid #333;
+	border-radius: 30px;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: large;
+}
+
+li.thought {
+	width: 300px;
+	border-radius: 200px;
+	padding: 30px;	
+}
+
+li.bubble:before,
+li.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+li.speech:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+
+li.speech:after {
+	left: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+li.thought:before,
+li.thought:after {
+	left: 10px;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #333;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+li.thought:after {
+	width: 20px;
+	height: 20px;
+	left: 5px;
+	bottom: -40px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
